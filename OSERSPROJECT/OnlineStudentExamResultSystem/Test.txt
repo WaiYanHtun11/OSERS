@@ -1,0 +1,65 @@
+myanmar
+<select name = "m">
+<option selected = "selected">A+</option>
+<option>A</option>
+<option>A-</option>
+<option>B+</option>
+<option>B</option>
+<option>B-</option>
+<option>C+</option>
+<option>C</option>
+<option>D</option>
+<option>F</option>
+</select>
+
+GPA
+<input type = "text" name ="GPA" size = "5" <input type = "text" name ="GPA" size = "5"/>
+
+first year query
+INSERT INTO `first_year_rt`(`ID`, `St_ID`, `St_Name`, `M-100`, `E-100`, `P-100`, `CST-101`, `CST-102`, `CST-103`, `GPA`, `Major`) VALUES
+ ()
+
+code abbr for 2 yr table 
+//for one row
+psid
+psname
+pes
+gpas
+mjs
+//
+ids
+ns 
+es 
+ss01
+ss02
+ss03
+ss04
+ss05
+gs
+mjs
+//action
+sinsertonce
+sinsertall
+
+INSERT INTO `second_year_rt`(`ID`, `St_Name`, `St_ID`, `E-200`, `CST-201`, `CST-202`, `CST-203`, `CST-204`, `CST-205`, `GPA`, `Major`) VALUES
+
+ ()
+
+code abbr for 3 yr table
+ptid
+ptname
+et 
+
+idt
+nt 
+et 
+st01
+st02
+st03
+st04
+st05
+gt
+mts
+
+tinsertonce
+tinsertall

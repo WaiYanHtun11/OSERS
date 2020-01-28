@@ -1,0 +1,699 @@
+body{
+   background-color:rgba(173,216,230,0.2);
+    background-attachment: scroll;
+    
+}
+
+     #wrapper{
+         width: 100%;
+         height: auto;
+         margin-left:0px;
+         margin-right:0px;
+        
+         
+     }
+     #header
+     {
+       /* border:1px solid #000000;*/
+          background-image:url(headbg.png);
+        background-repeat: no-repeat;
+        background-attachment:scroll;
+        height:106;
+    background-position: top-left;
+        background-size:100% 106px;
+    border-radius:1em;
+ 
+     }
+     #leftcolumn{
+         float: left;
+         width: 248px;
+         height: 420px;
+        /* border: 0px ridge #000000;*/
+        /* background-color:rgba(192,192,192,0.4);*/
+    border-radius:.6em;
+    border-top-left-radius: .6em;
+    border-bottom-left-radius: .6em;
+    /*background-color:rgba(242, 249, 251, 0.40); */
+    /*border-right-style: solid;
+    border-right-color:black;
+    border-right-width: 1px;*/
+    background-color:rgba(255, 255, 255, 0.2);
+         
+     }
+     #rightcolumn{
+         margin-left:251px;
+         height:420px;
+         /*border: 0px ridge #000000; */
+       /* background-color:rgba(192,192,192,0.4);  */
+       /*background-color:rgba(255, 255, 255, 0.92);*/
+        border-radius:1em;
+    
+
+     }
+         #footer{
+           
+           /* border: 1px ridge #000000;*/
+            height:65px; 
+            background-color:#87ceeb;
+            border-bottom-style: groove;
+            border-radius: 1em;
+            padding-top:1px;
+            text-decoration: none;
+
+     }
+     #footer a{
+         text-decoration: none;
+         color:black;
+     }
+     #fh{
+        font-weight: 500; 
+     font-family: serif;
+     text-align:center;
+     font-size: 30;
+     background-attachment: fixed;
+     }
+    h4{
+     	color:#0d0000;
+     	
+	 	}
+	 
+    #catagory{
+        /*background-color:rgba(192, 204, 219, 0.30);*/
+        border-radius:0.5em;
+       
+        height:300px;
+		}
+	/*studentlogin css*/
+	
+
+/* login css*/
+#userlogin{
+	float:center;
+	align-items: center;
+	padding: 5px 25px 50px 15px;
+	border-width: 100px;
+	background-color:rgba(192, 204, 219, 0.30);
+	width: 50%;
+	height:50%;
+	margin-left: 250px;
+	margin-right: 200px;
+	background-origin: content-box;
+	background-position: center; 
+	background-attachment: fixed; 
+	background-clip: padding-box;
+box-shadow: 0 1px 0 rgba(60, 61, 62, 0.89);
+border-radius:.5em;
+margin-top:10px;
+
+}
+	#lf_rt{
+        /*background-image:url(wrapperbg.jpeg); 
+        background-size:100% 120%;
+         background-repeat: no-repeat; 
+         background-position: center;*/ 
+         background-attachment: scroll; 
+         border-radius: 1em;
+         opacity:0.8;
+         /*background-color:white;*/
+    }
+#free{
+    width:50%;
+    height:20%;
+}
+#userfree{
+    width:50%;
+    height:10%;
+}
+#link{
+    font-size:20;
+}
+#error{
+    text-decoration-color: red;
+}
+h3{
+    font-size: 16;
+    color:red;
+}
+#uploadinfopane{
+    float:center;
+	align-items: center;
+	padding: 5px 25px 50px 15px;
+	border-width: 100px;
+	background-color:rgba(192, 204, 219, 0.30);
+	width: 50%;
+	height:65%;
+	margin-left: 250px;
+	margin-right: 200px;
+	background-origin: content-box;
+	background-position: center; 
+	background-attachment: fixed; 
+	background-clip: padding-box;
+box-shadow: 0 1px 0 rgba(60, 61, 62, 0.89);
+border-radius:.5em;
+
+}
+img{
+    border-radius: 1em;
+    
+    opacity: 0.6;
+    background-color: rgba(192, 204, 219, 0.30);
+    margin-left:60px;
+    margin-top:20px;
+}
+#welcome{
+    width:100%;
+    height:25%;
+}
+#bgcolorhp{
+    background-color:rgba(192, 204, 219, 0.30);
+    height:280px;
+    border-radius:1em;
+}
+#heading{
+    width:100%;
+    height: 30px;
+    margin-top:-20px;
+}
+#infobody{
+    margin-top:25px;
+    height:358px;
+    overflow: auto;
+    border-radius:1em;
+    background-color:rgba(192, 204, 219, 0.30);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top:-2px;
+}
+#welcomeuser{
+   margin-right: 30px;
+    margin-top:-30px;
+    float: right;;
+    font-style:bold;
+    font-weight: bold;
+    color:#C1ED10;
+
+    font-size: 20;
+    padding-top:70px;
+    font-family:'Times New Roman', Times, serif;
+}
+#resultchoice{
+    
+    border-radius:.6em;
+    padding-top:5px;
+    padding-left:50px;
+    background-color:white;
+    height:30px;
+    
+   
+}
+#resultpane{
+    
+    height: 385px;
+    border-radius: .5em;
+    overflow: auto;
+ 
+
+}
+/* this is the css for user or admin changing password */
+#changepassword{
+
+    float:center;
+	align-items: center;
+	border-width: 100px;
+	background-color:rgba(192, 204, 219, 0.30);
+	width: 50%;
+	height:70%;
+	margin-left: 250px;
+	margin-right: 200px;
+	padding-left:20px;
+
+box-shadow: 0 1px 0 rgba(60, 61, 62, 0.89);
+border-radius:.5em;
+margin-top:100px;
+margin-left:300px;
+}
+#topic{
+     margin-top:-20px;
+     padding-top:-10px;
+     height:35px;
+    	border-bottom-color: black;
+     border-radius: .6em;
+     background-color:whitesmoke;
+     border-radius: .6em;
+   
+     /*background-color:rgba(135,206,235,0.8);*/
+}
+#BodyInfo{
+    overflow:auto;
+    border-radius: .6em;
+    height:380px;
+    margin-top:0px;
+   /* background-color:rgba(135,206,235,0.8);*/
+    padding-left:30px;
+    padding-right: 30px;
+    font-style:inherit;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:25px;
+    background-color:rgba(191, 221, 236, 0.20);
+    -webkit-overflow-scrolling:auto;
+
+}
+#SExambox{
+    margin-left:200px;
+    width:400px;
+    height:450px;
+    border-radius: .6em;
+    border:1px solid black;
+     background-color:rgba(135,206,235,0.2);
+}
+
+#serror{
+    color:red;
+   /* background-color:rgba(239, 233, 233, 0.50);*/
+    width:280px;
+    height:70px;
+    padding-top:30px;
+    padding-left:20px;
+    margin-top:60px;
+    border-radius:.6em;
+    margin-right:0px;
+    margin-top:5px;
+    font-weight: bolder;
+    font-size: 19;
+    float:left;
+    
+}
+#specialadminheading{
+    text-align: center;
+    background-color: white;
+    padding-top:-10px;
+    border:1px;
+    border-radius: .6em;
+    margin-top:-20px;
+}
+#paneforstable{
+
+    height:358px;
+    border-radius: .6em;
+    margin-top:10px;
+    overflow:auto;
+    font-size:30;
+}
+#help{
+    
+    width:180px;
+    float:center;
+    margin-left:500px;
+    margin-top:0px;
+    border-radius: .6em;
+   background-color:rgba(198, 221, 243, 0.78);
+    padding-left:5px;
+}
+#helpbody{
+    border:1px solid black;
+    margin-left:0px;
+    border-radius:.6em;
+    height:650px;
+}
+#helpb{
+   
+    height: 520px;
+    border-radius: .6em;
+    margin-top:-10px;
+    overflow: auto;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 20;
+}
+#GradeTable{
+    border:1px solid black;
+    
+}
+/* css for user feedback*/
+#Sfd{
+    Margin-top:50px;
+    Margin-left:200px;
+    width:800px;
+    height:300px;
+    padding-top:5px;
+    padding-left:10px;
+    border-radius: .6em;
+    background-color:rgba(166, 194, 229, 0.30);
+    overflow: auto;
+}
+    #fdbt{
+        margin-left: 150px;
+    }
+#paneforfirstyear{
+    border:1px solid black;
+}
+#fileuploadpane{
+	align-items: center;
+	padding-left: 20px;
+	background-color:rgba(192, 204, 219, 0.30);
+	width: 320px;
+    height:220px;
+    float:center;
+	margin-left: 300px;
+	margin-right: 200px;
+    border:1px solid black;
+border-radius:.5em;
+padding-right: 20px;
+}
+#alignmentforuploadtext{
+    padding-left:80px;
+}
+#padforbrowse{
+    padding-left:35px;
+}
+#btuploadpane{
+    padding-left:125px;
+
+}
+#postheader{
+    background-color:whitesmoke;
+  
+    height:50px;
+    padding-top:-10px;
+    border-radius: .6em;
+}
+#heading{
+    background-color:whitesmoke;
+    border-radius: .6em;
+    height:30px;
+}
+#panebody{
+    background-color:rgba(192, 204, 219, 0.30);
+    height:100px;
+    padding:15px 15px 15px 15px;
+}
+#manual{
+    
+    width:100%;
+    height:300px;
+    border-radius:.6em;
+}
+#downloadpane{
+    overflow: auto;
+    width:600px;
+    height:250px;
+    background-color:rgba(192, 204, 219, 0.30);
+    border-radius:.6em;
+ 
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    border-right-style:solid;
+    border-right-width:2px;
+    padding-left:20px;
+    margin-left:330px;
+    margin-top:30px;
+    
+
+}
+#feedbackpane{
+    margin-left:610px;
+    width:624px;
+    height:200px;
+    overflow: auto;
+    float:right;
+    border-radius:.6em;
+    Margin-top:-201px;
+    background-color:rgba(192, 204, 219, 0.30);
+    border-bottom-color:black;
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    border-left-color: black;
+    border-left-style:solid;
+    border-left-width:2px;
+    padding-left:20px;
+    padding-right:20px;
+}
+#oserbackend{
+    height:50px;
+    border-bottom-width: 2px;
+    border-bottom-color:black;
+    border-bottom-style: solid;
+    background-color:rgba(192, 204, 219, 0.30);
+    margin-top:-20px;
+    border-radius:.6em;
+    padding-top:0px;
+}
+#iconchoicepane{
+    margin-top:-20px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:0px;
+    border-radius: .6em;
+    height:60px;
+    width:700px;
+    background-color:white; 
+}
+#ActionChoice{
+        float: center;
+        margin-left:10px;
+    border-radius: .6em;
+    padding-right:30px;
+    /*background-color:#E0E9EC;*/
+    padding-left:50px;
+    width:950px;
+    height:30px;
+    padding-top:25px;
+    margin-top:-25px;
+  
+
+}
+#showActionPane{
+    margin-top:0px;
+height:600px;  
+overflow: scroll;  
+border-radius:.6em;
+background-color:rgba(192, 204, 219, 0.30);
+}
+#osers{
+    border:1px solid black;
+    margin-left:0px;
+    border-radius:.6em;
+    height:730px;
+}
+#setresultdate{
+    border-radius:.6em;
+    Margin-top:10px;
+    height:43px;
+    padding:10px;
+    padding-left:100px;
+    background-color: rgba(245, 245, 245, 0.28);
+    
+}
+#hello{
+    padding-left:100px;
+}
+#middlepane{
+    margin-top:-118px;
+}
+#inserterror{
+    color:red;
+    margin-left:500px;
+    padding-left:50px;
+    margin-top:-30px;
+    padding-top:10px;
+}
+#insertheader{
+height:20px;
+border-radius: .6em;
+padding-top:30px;
+
+
+}
+#insertchoicepane{
+    padding-left:300px;
+}
+#selectionnoti{
+    border-radius:.6em;
+    background-color:white;
+    height:30px;
+    padding-top:5px;
+    padding-left:10px;
+    font-weight: bold;
+    font-size:18px;
+    text-align: center;
+}
+#studentchoice{
+    border-radius: .6em;
+    background-color: rgba(255, 255, 255, 0.88);
+    height: 30px;
+    width:580px;
+    padding-left:300px;
+    position: center;
+
+}
+#insertinfo{
+    margin-top:-10px;
+    width:280px;
+    height:80px;
+    float:right;
+    margin-right:20px;
+    border-radius: .6em;
+    background-color:white;
+}
+#space{
+    height:7px;
+}
+#deletetable{
+    
+   border-radius: .6em;
+   margin-left:330px;
+   float: center;
+   margin-top:30px;
+   background-color:rgba(211, 234, 244, 0.47);
+   width:600px;
+}
+#delnoti{
+    width:300px;
+    border-radius: .6em;
+    background-color: gainsboro;
+    height:30px;
+    border:1px solid black;
+
+}
+body{
+    background-image:url(image.jpg);
+    background-repeat:repeat-y;
+    background-size:100% 120%;
+}
+#center{
+    height:200px;
+}#panel{
+    border:1px solid black;
+    height: 200px;
+    width:500px;
+    border-radius:.6em;
+    background-color:white;
+    float:center;
+    margin-top:250px;
+    margin-left:300px;
+padding-left:20px;
+padding-right:20px;
+}
+#homeb{
+    margin-right:100px;
+    float:right;
+    border-radius: .6em;
+    height: 20px;
+    border:1px solid black;
+    margin-top:-20px;
+    width:100px;
+    padding:2px;
+    padding-left:3px;
+    background-color:#89DFEC;
+    
+}
+#clearpanel{
+    margin-top:-50px;
+    margin-left:800px;
+    font-size:20px;
+}
+#studentchoice2{
+    border-radius: .6em;
+    background-color: #BAE4EF;
+    height: 30px;
+    padding-left:300px;
+    position: center;
+
+
+}
+#showActionPane2{
+    margin-top:0px;
+height:600px;  
+overflow:auto;  
+border-radius:.6em;
+background-color:rgba(192, 204, 219, 0.30);
+overflow:auto;
+}
+#foot{
+    margin-left:300px;
+    margin-top:10px;
+    background-color:white;
+    border-radius:.6em;
+    padding-left:5px;
+    padding-top:0px;
+    width:300px;
+    height:40px;
+    font-size:20;
+    font-weight: bold;
+}
+ input[type=submit]{
+    border-radius:.6em;
+    cursor:pointer;
+    -webkit-border-radius:2em;
+    background-color:#67CDE0;
+    height:25px;
+}
+input[type=reset]{
+    border-radius:.6em;
+    cursor:pointer;
+    -webkit-border-radius:2em;
+    background-color:#9CDEEA;
+    height:25px;
+}
+#fileuploadpane2{
+	align-items: center;
+	padding-left: 20px;
+	background-color:rgba(192, 204, 219, 0.30);
+	width: 320px;
+    height:220px;
+    float:center;
+    margin-top:30px;
+	margin-left: 500px;
+	margin-right: 200px;
+    border:1px solid black;
+border-radius:.5em;
+padding-right: 20px;
+}
+#inserterror2{
+    color:red;
+    margin-left:500px;
+    padding-left:230px;
+    margin-top:-30px;
+    padding-top:10px;
+    font-weight:bold;
+    font-size:18px;
+}#recorded{
+    margin-top:20px;
+    margin-left:100px;
+}
+#iconchoicepane2{
+    height:50px;
+border-radius: .6em;
+    background-color:#F1F4E9;
+    height:70px;
+   
+}#modify{
+    margin-top:-20px;
+    height:30px;
+    padding-bottom:5px;
+    background-color:white;
+    border-radius:.6em;
+    
+}
+#showactionpane3{
+    margin-top:0px;
+}
+#Seecgbarecord{
+    margin-left: 500px;
+    margin-top:20px;
+    border-radius:.6em;
+}
+#fileuploadpane3{
+	align-items: center;
+	padding-left: 20px;
+	background-color:rgba(203, 213, 226, 0.30);
+	width: 700px;
+    height:400px;
+    float:center;
+    margin-top:30px;
+	margin-left: 350px;
+	margin-right: 200px;
+border-radius:.5em;
+padding-right: 20px;
+overflow:auto;
+}

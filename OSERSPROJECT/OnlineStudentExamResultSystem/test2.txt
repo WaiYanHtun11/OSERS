@@ -1,0 +1,106 @@
+ $ids1 = $_POST['ids1'];
+    $es1 = $_POST['es1']; 
+    $ss011 = $_POST['ss011'];
+    $ss021 = $_POST['ss021'];
+    $ss031 = $_POST['ss031'];
+    $ss041 = $_POST['ss041'];
+    $ss051 = $_POST['ss051'];
+    $gs1 = $_POST['gs1'];
+    $mjs1 = $_POST['mjs1'];
+
+    $ids2 = $_POST['ids2'];
+    $es2 = $_POST['es2']; 
+    $ss012 = $_POST['ss012'];
+    $ss022 = $_POST['ss022'];
+    $ss032 = $_POST['ss032'];
+    $ss042 = $_POST['ss042'];
+    $ss052 = $_POST['ss052'];
+    $gs2 = $_POST['gs2'];
+    $mjs2 = $_POST['mjs2'];
+
+    $ids3 = $_POST['ids3'];
+    $es3 = $_POST['es3']; 
+    $ss013 = $_POST['ss013'];
+    $ss023 = $_POST['ss023'];
+    $ss033 = $_POST['ss033'];
+    $ss043 = $_POST['ss043'];
+    $ss053 = $_POST['ss053'];
+    $gs3 = $_POST['gs3'];
+    $mjs3 = $_POST['mjs3'];
+
+    $ids4 = $_POST['ids4'];
+    $es4 = $_POST['es4']; 
+    $ss014 = $_POST['ss014'];
+    $ss024 = $_POST['ss024'];
+    $ss034 = $_POST['ss034'];
+    $ss044 = $_POST['ss044'];
+    $ss054 = $_POST['ss054'];
+    $gs4 = $_POST['gs4'];
+    $mjs4 = $_POST['mjs4'];
+
+    $ids5 = $_POST['ids5'];
+    $es5 = $_POST['es5']; 
+    $ss015 = $_POST['ss015'];
+    $ss025 = $_POST['ss025'];
+    $ss035 = $_POST['ss035'];
+    $ss045 = $_POST['ss045'];
+    $ss055 = $_POST['ss055'];
+    $gs5 = $_POST['gs5'];
+    $mjs5 = $_POST['mjs5'];
+
+    $ids6 = $_POST['ids6'];
+    $es6 = $_POST['es6']; 
+    $ss016 = $_POST['ss016'];
+    $ss026 = $_POST['ss026'];
+    $ss036 = $_POST['ss036'];
+    $ss046 = $_POST['ss046'];
+    $ss056 = $_POST['ss056'];
+    $gs6 = $_POST['gs6'];
+    $mjs6 = $_POST['mjs6'];
+
+    $ids7 = $_POST['ids7'];
+    $es7 = $_POST['es7']; 
+    $ss017 = $_POST['ss017'];
+    $ss027 = $_POST['ss027'];
+    $ss037 = $_POST['ss037'];
+    $ss047 = $_POST['ss047'];
+    $ss057 = $_POST['ss057'];
+    $gs7 = $_POST['gs7'];
+    $mjs7 = $_POST['mjs7'];
+
+    $ids8 = $_POST['ids8'];
+    $es8 = $_POST['es8']; 
+    $ss018 = $_POST['ss018'];
+    $ss028 = $_POST['ss028'];
+    $ss038 = $_POST['ss038'];
+    $ss048 = $_POST['ss048'];
+    $ss058 = $_POST['ss058'];
+    $gs8 = $_POST['gs8'];
+    $mjs8 = $_POST['mjs8'];
+
+    $ids9 = $_POST['ids9'];
+    $es9 = $_POST['es9']; 
+    $ss019 = $_POST['ss019'];
+    $ss029 = $_POST['ss029'];
+    $ss039 = $_POST['ss039'];
+    $ss049 = $_POST['ss049'];
+    $ss059 = $_POST['ss059'];
+    $gs9 = $_POST['gs9'];
+    $mjs9 = $_POST['mjs9'];
+
+    
+    $ids10 = $_POST['ids10'];
+    $es10 = $_POST['es10']; 
+    $ss0110 = $_POST['ss0110'];
+    $ss0210 = $_POST['ss0210'];
+    $ss0310 = $_POST['ss0310'];
+    $ss0410 = $_POST['ss0410'];
+    $ss0510 = $_POST['ss0510'];
+    $gs10 = $_POST['gs10'];
+    $mjs10 = $_POST['mjs2'];
+
+    $result = mysqli_query($con,$sql);
+    if($result){
+    }
+    else{
+    }

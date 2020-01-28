@@ -1,0 +1,2 @@
+Our Project "Online Student Exam Result Sytem" is developed by php & Xamp Version 7.2.7.0
+Currently the username & password for the admin is- "Alice","alice112";
